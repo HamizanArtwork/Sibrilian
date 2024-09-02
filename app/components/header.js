@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
         <Image src='/flow.png'
-            className='absolute z-10 right-[24px] top-[400px]'
+            className='absolute z-10 right-[0px] top-[580px] w-[260px] md:top-[400px] md:w-[380px] md:right-[24px]'
             width={380}
             height={380}
         />

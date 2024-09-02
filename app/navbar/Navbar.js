@@ -13,7 +13,7 @@ const Navbar = () => {
   let [isClick, setIsClick] = useState(false);
 
   const toggleNavbar = () => {
-    setIsClick(!isClick); 
+    setIsClick(!isClick);
   };
 
   return (
@@ -38,7 +38,7 @@ const Navbar = () => {
             </li>
             
             <li>
-              <a onClick={isClick}><Link href='/agenda' className={`${lilita_one.className} text-border-1`}>AGENDA</Link></a>
+              <a onClick={isClick}><Link href='/maintenance' className={`${lilita_one.className} text-border-1`}>AGENDA</Link></a>
             </li>
             <li>
               <a onClick={isClick}><Link href='/maintenance' className={`${lilita_one.className} text-border-1`}>LAPORAN</Link></a>
